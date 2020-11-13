@@ -1,10 +1,10 @@
 package SortingAlgorithms;
 
 public class SelectionSort {
-
+    //Selection sort has a time complexity of O(N^2). It has 2 loops and each loop can be considered N so N * N gives us N^2
+    //The algorithm grows in a quadratic way as the number of steps increase
+    //Selection sort is a Unstable algorithm
     public static void main(String [] args){
-        //Selection sort has a time complexity of O(N^2). It has 2 loops and each loop can be considered N so N * N gives us N^2
-        //The algorithm grows in a quadratic way as the number of steps increase
         int [] arr = {2, -1, 48, 11, -3, 8};
 
         for (int lastUnsortedIndex = arr.length -1; lastUnsortedIndex > 0; lastUnsortedIndex--){

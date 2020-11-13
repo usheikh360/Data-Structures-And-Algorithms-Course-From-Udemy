@@ -1,12 +1,10 @@
 package SortingAlgorithms;
 
 public class BubbleSort {
-
+    //Bubble sort has a time complexity of O(N^2). The algorithm grows in a quadratic way as the number of steps increase
+    //Bubble sort is a Stable algorithm
     public static void main (String [] args){
-        System.out.println("Hello world!");
-        //Bubble sort has a time complexity of O(N^2). The algorithm grows in a quadratic way as the number of steps increase
         int [] arr = {2, -1, 48, 11, -3, 8};
-
         //Steps
         /*1. Need to keep track of the index to the right most that have been sorted
           2. Need to loop through each index and compare the current index value with the index value +1 to it
